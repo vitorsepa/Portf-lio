@@ -1,0 +1,122 @@
+body {
+    font-family: Calibri, sans-serif; /* Define a fonte Calibri para todo o documento */
+}
+
+
+body {
+    text-align: center; /* Alinha todo o texto dentro do body */
+}
+
+h1{
+    font-size: 100px;
+    text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.text1{
+    text-align: right;
+    height: -90px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: rgb(240, 245, 252);
+    color: black;
+    align-items: center;
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5)
+}
+
+
+.body{                            /* bagulho do rafael */
+    font-family: monospace;
+}
+.a{
+    text-decoration: none;
+    color: black
+}
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.icondonav{
+    padding: 5px 5px;
+    width: 10%;
+}
+
+.nav li {
+        margin: 10px;
+}
+
+h8{
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+h7{
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+h9{
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direita{
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    border: 1px;
+    border-color: rgba(240, 245, 252);
+    border-radius: 20px;
+    background-color: rgba(240, 245, 252);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5)
+
+}
+
+.esquerda{
+    justify-content: left;
+    justify-items: left;
+    padding: 20px;
+
+}
+
+.meio{
+    text-align: center;
+    background-color: #bebebe;
+}
+
+.footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: rgb(240, 245, 252);
+       color: rgb(0, 0, 0);
+       text-align: center;
+       padding: 7px 0;
+       border: 1px solid rgba(0, 0, 0, 0.5);
+       border-radius: 0px;
+}
+
+.cabeca{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    width: 20%;
+}
